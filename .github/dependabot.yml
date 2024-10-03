@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directories: ["/05-express-first-app", "06-handlebars", "07-get-post", "08-validation-sessions", "09-mongodb", "10-monk", "11-mongoose"] # Location of package manifests
     schedule:
       interval: "weekly"
